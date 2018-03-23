@@ -1,0 +1,40 @@
+    		body
+  		{
+    		background-color:#74BC91;
+    		font-family: 'Open Sans', sans-serif;
+  		}
+  
+        h1
+      	{
+        font-size:72px;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:auto;
+        text-align:center;
+        font-family: 'Open Sans', sans-serif;
+        letter-spacing:4px;
+        text-decoration:none;
+        color:#252A27;
+      	}
+      	
+        h2
+      	{
+        font-size:36px;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:auto;
+        text-align:center;
+        font-family: 'Open Sans', sans-serif;
+        letter-spacing:2px;
+        text-decoration:none;
+        color:##252A27;
+      	}
+      	
+      	img
+      	{
+      	width: 750px;
+      	height: 1000px;
+      	margin-left: auto;
+      	margin-right: auto;
+      	display: block;
+      	}

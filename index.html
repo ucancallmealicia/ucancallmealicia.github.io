@@ -2,15 +2,49 @@
 <html lang='en'>
   <head>
   	<meta charset="utf-8">
-    <title>Alicia's Website</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>aliciadetelich.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans'     
     		  rel='stylesheet'>
     <link href='css/style.css'
     		  rel='stylesheet'>
   </head>
   <body>
+    <nav class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand">Alicia Detelich</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="about/about.html">About</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolio<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="code/code.html">Code</a></li>
+                <li><a href="writing/writing.html">Writing</a></li>
+                <li><a href="presentations/presentations.html">Presentations</a></li>
+                <li><a href="cv/cv.html">CV</a></li>
+              </ul>
+            </li>
+            <li><a href="blog/blog.html">Blog</a></li>
+            <li><a href="contact/contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <h1>Hello, I'm Otis!</h1>
     <h2>I am a very good dog!</h2>
     <img src="jpg/otis.jpg" alt="User Image">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>

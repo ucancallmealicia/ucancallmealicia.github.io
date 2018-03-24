@@ -29,6 +29,16 @@
         text-decoration:none;
         color:##252A27;
       	}
+
+        h3
+        {
+        font-size:24px;
+        text-align:center;
+        font-family: 'Open Sans', sans-serif;
+        letter-spacing:2px;
+        text-decoration:none;
+        color:##252A27;  
+        }
       	
       	img
       	{

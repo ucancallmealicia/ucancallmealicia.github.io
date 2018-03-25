@@ -1,12 +1,16 @@
-    		body
+    		html{font-size:100%;}
+        @media(min-width:60em){html{font-size:100%;}}
+
+        body
   		{
     		background-color:#74BC91;
     		font-family: 'Open Sans', sans-serif;
+        font-size:16px;
   		}
   
         h1
       	{
-        font-size:72px;
+        font-size:200%;
         margin-left:auto;
         margin-right:auto;
         margin-top:auto;
@@ -19,7 +23,7 @@
       	
         h2
       	{
-        font-size:36px;
+        font-size:150%;
         margin-left:auto;
         margin-right:auto;
         margin-top:auto;
@@ -32,7 +36,7 @@
 
         h3
         {
-        font-size:24px;
+        font-size:133%;
         text-align:center;
         font-family: 'Open Sans', sans-serif;
         letter-spacing:2px;
@@ -42,7 +46,7 @@
 
         p
         {
-        font-size:20px;
+        font-size:100%;
         width:auto;
         height:auto;
         margin-bottom: auto;
@@ -64,6 +68,7 @@
       	margin-right: auto;
         max-width: 100%;
       	display: block;
+        padding:15px;
       	}
 
         a

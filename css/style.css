@@ -75,3 +75,11 @@
         {
         color:#6E7370;  
         }
+
+        .cv-section p
+        {
+        width: auto;
+        height: auto;
+        text-align: left; 
+        padding-left: 100px; 
+        }

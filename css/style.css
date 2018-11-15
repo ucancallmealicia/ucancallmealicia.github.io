@@ -76,10 +76,79 @@
         color:#6E7370;  
         }
 
+        .cv-section h1
+        {
+        width: auto;
+        height: auto;
+        text-align: center; 
+        }
+
+        .cv-section h2
+        {
+        width: auto;
+        height: auto;
+        text-align: center; 
+        }
+
+        .cv-section h3
+        {
+        width: auto;
+        height: auto;
+        text-align: center; 
+        }
+
+        .cv-section h4
+        {
+        width: auto;
+        height: auto;
+        text-align: center; 
+        }
+
         .cv-section p
         {
         width: auto;
         height: auto;
+        text-align: center; 
+        }
+
+        .list ul
+        {
+        width: auto;
+        height: auto;
+        display: inline-block;
         text-align: left; 
-        padding-left: 100px; 
+        }  
+
+        .list ul li
+        {
+        width: auto;
+        height: auto;
+        margin-left: 50px;
+        list-style-type: square;
+        list-style-position: outside;
+        text-align: left; 
+        }
+
+        .tab
+        {
+        margin-left: 40px;
+        }
+
+        .post+.post:before 
+        {
+        display: block;
+        content: '';
+        width: 5rem;
+        height: 1px;
+        margin: 23px auto;
+        background-color: lighten($text-color, 70%);
+        }
+
+        .byline 
+        {
+        display: block;
+        color: lighten($text-color, 25%);
+        line-height: 1.8em; 
+        margin-bottom: 1.5em; /* 24px/16px */
+        font-weight: 200;
         }

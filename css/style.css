@@ -69,6 +69,8 @@
         max-width: 100%;
       	display: block;
         padding:15px;
+		border-width: thick;
+		border-color: black;
       	}
 
         a
@@ -82,7 +84,7 @@
 		padding-top: 1px;
 		}
 
-        .cv-section > h1
+        cv-section > .container > .row > .col-lg-12 > h1
         {
         width: auto;
         height: auto;
@@ -90,7 +92,7 @@
 		font-family: 'Open Sans', sans-serif;
         }
 
-        .cv-section > h2
+        cv-section > .container > .row > .col-lg-12 > h2
         {
         width: auto;
         height: auto;
@@ -98,7 +100,7 @@
 		font-family: 'Open Sans', sans-serif;
         }
 
-        .cv-section > h3
+        .cv-section > .container > .row > .col-lg-12 > h3
         {
         width: auto;
         height: auto;
@@ -106,7 +108,7 @@
 		font-family: 'Open Sans', sans-serif;
         }
 
-        .cv-section > h4
+        .cv-section > .container > .row > .col-lg-12 > h4
         {
         width: auto;
         height: auto;
@@ -114,7 +116,7 @@
 		font-family: 'Open Sans', sans-serif;
         }
 
-		.cv-section > h5
+		.cv-section > .container > .row > .col-lg-12 > h5
         {
         width: auto;
         height: auto;
@@ -122,13 +124,25 @@
 		font-family: 'Open Sans', sans-serif;
         }
 	
-        .cv-section > p
+        .cv-section > .container > .row > .col-lg-12 > p
         {
         width: auto;
         height: auto;
         text-align: center;
 		font-family: 'Open Sans', sans-serif;
         }
+
+		.footer
+		{
+		position: static;
+    	left: 0;
+    	bottom: 0;
+		height: 15px;
+    	width: 100%;
+		border: 10px solid transparent;
+		border-color:#0f0f0f;
+		background-color: #82BB99;
+		}
 
 		.oh-well
 		{
@@ -145,9 +159,47 @@
 		font-size: 14px;
 		}
 
-		.presentation-section > .container > .oh-well > .row > .col-sm-12 > p
-		{text-align:left;
-		font-size: 14px}
+		.presentation-section > .container > .oh-well > .row
+		{
+		display: flex;
+		}
+
+		.text-left
+		{
+		font-size: 14px;	
+		}
+
+		table
+		{
+		text-align: left;	
+		}
+	
+		tr
+		{
+		text-align: left;		
+		}
+
+		td
+		{
+		text-align: left;		
+		}
+
+		.presentation-section > .container > .oh-well > .row > .col-sm-12 > table > tr > td > p
+		{
+		text-align:left;
+		font-size: 14px;
+		}
+
+		time
+		{
+		text-align:left;
+		font-size: 14px;				
+		}
+
+		.blog_post
+		{
+			
+		}
 
         .list > ul
         {

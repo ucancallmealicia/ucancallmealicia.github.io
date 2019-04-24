@@ -6,8 +6,8 @@
 
 # Removing CV for now and linking in contact page
 
-/*.cv.html
-/*.blog.html
+*.cv.html
+*.blog.html
 
 # Python egg metadata, regenerated from source files by setuptools.
 /*.egg-info

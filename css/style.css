@@ -119,6 +119,11 @@
 		margin-right: 100px
 		}
 
+		.about-section > p
+		{
+		max-width: 425px;
+		}
+
         .cv-section > .container > .row > .col-lg-12 > h1
         {
         width: auto;

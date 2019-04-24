@@ -49,13 +49,13 @@
         font-size:100%;
         width:auto;
         height:auto;
-        margin-bottom: auto;
+        margin-bottom: 1px;
         margin-top: auto;
         margin-left: auto;
         margin-right: auto;
         text-align:center;
         font-family: 'Open Sans', sans-serif;
-        letter-spacing:2px;
+        letter-spacing:0px;
         text-decoration:none;
         color:#252A27;   
         }
@@ -78,13 +78,48 @@
         color:#6E7370;  
         }
 
+		address
+		{
+		text-align: center;	
+		}
+
+		.cv-link
+		{
+		text-align: center;
+		padding-bottom: 20px;
+		padding-top: 10px;
+		}
+
+		.cv-link > p > a
+		{
+		font-size: 18px;	
+		}
+
 		.intro-section > h3
 		{
 		padding-bottom: 1px;
 		padding-top: 1px;
 		}
 
-        cv-section > .container > .row > .col-lg-12 > h1
+		.who-am-i
+		{
+		margin-left: 100px;
+		margin-right: 100px;
+		display: block;
+		text-align: center;
+		}
+
+		.about-section
+		{
+		width: auto;
+		height: auto;
+		display: block;
+		text-align: center;
+		margin-left: 100px;
+		margin-right: 100px
+		}
+
+        .cv-section > .container > .row > .col-lg-12 > h1
         {
         width: auto;
         height: auto;
@@ -92,19 +127,54 @@
 		font-family: 'Open Sans', sans-serif;
         }
 
-        cv-section > .container > .row > .col-lg-12 > h2
+        .cv-section > .container > .row > .col-lg-12 > h2
         {
         width: auto;
         height: auto;
-        text-align: center;
+        text-align: left;
 		font-family: 'Open Sans', sans-serif;
+		padding-bottom: 3px;
+		padding-top: 10px;
+        }
+
+		.job-duties
+		{
+		padding-bottom: 3px;	
+		}
+
+		.job-details
+		{
+		padding-bottom: 8px;
+		}
+
+		.job-details > h4
+		{
+        width: auto;
+        height: auto;
+		margin-bottom:0px;
+		margin-top: 7px;
+        text-align: left;
+		font-size: 17px;
+		font-size-adjust: auto;
+		font-family: 'Open Sans', sans-serif;
+		}
+
+		.job-details > h5
+        {
+        width: auto;
+		height: auto;
+		margin-bottom: 0px;
+		margin-top: 2px;
+        text-align: left;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 16px;
         }
 
         .cv-section > .container > .row > .col-lg-12 > h3
         {
         width: auto;
         height: auto;
-        text-align: center;
+        text-align: left;
 		font-family: 'Open Sans', sans-serif;
         }
 
@@ -112,29 +182,34 @@
         {
         width: auto;
         height: auto;
-        text-align: center;
+        text-align: left;
+		font-size: 17px;
+		font-size-adjust: auto;
 		font-family: 'Open Sans', sans-serif;
         }
 
 		.cv-section > .container > .row > .col-lg-12 > h5
         {
         width: auto;
-        height: auto;
-        text-align: center;
+		height: auto;
+        text-align: left;
 		font-family: 'Open Sans', sans-serif;
+		font-size: 16px;
         }
 	
         .cv-section > .container > .row > .col-lg-12 > p
         {
         width: auto;
         height: auto;
-        text-align: center;
+		font-size: 14px;
+		font-size-adjust: auto;
+        text-align: left;
 		font-family: 'Open Sans', sans-serif;
         }
 
 		.footer
 		{
-		position: static;
+		position: relative;
     	left: 0;
     	bottom: 0;
 		height: 15px;
@@ -201,25 +276,21 @@
 			
 		}
 
-        .list > ul
-        {
-        width: auto;
-        height: auto;
-        display: inline-block;
-        text-align: left; 
-        }  
+		ul
+		{
+		margin-top: 0px;
+		margin-bottom: 0px;
+		}
 
-        .list ul li
+        ul li
         {
         width: auto;
         height: auto;
-        margin-left: 50px;
+        margin-left: 0px;
         list-style-type: square;
         list-style-position: outside;
-        text-align: left; 
-        }
-
-        .tab
-        {
-        margin-left: 40px;
+        text-align: left;
+		font-size: 14px;
+		font-size-adjust: auto;
+		font-family: 'Open Sans', sans-serif;
         }

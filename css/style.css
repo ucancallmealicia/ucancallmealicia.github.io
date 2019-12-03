@@ -1,98 +1,121 @@
-    	html{font-size:100%;}
-        @media(min-width:60em){html{font-size:100%;}}
+	html{font-size:100%;}
+    @media(min-width:60em){html{font-size:100%;}}
 
-        body
-  		{
-    	background-color:#82BB99;
-    	font-family: 'Open Sans', sans-serif;
-        font-size:16px;
-  		}
-  
-        h1
-      	{
-        font-size:200%;
-        margin-left:auto;
-        margin-right:auto;
-        margin-top:auto;
-        text-align:center;
-        font-family: 'Open Sans', sans-serif;
-        letter-spacing:4px;
-        text-decoration:none;
-        color:#252A27;
-      	}
-      	
-        h2
-      	{
-        font-size:150%;
-        margin-left:auto;
-        margin-right:auto;
-        margin-top:auto;
-        text-align:center;
-        font-family: 'Open Sans', sans-serif;
-        letter-spacing:2px;
-        text-decoration:none;
-        color:#252A27;
-      	}
+   body
+	 {
+	 background-color:#006666;
+   color: #CCCCCC;
+   font-family: 'Open Sans', sans-serif;
+   font-size:16px;
+   text-align: left;
+	 margin: auto;
+	 margin-left: auto;
+	 margin-right: auto
+	 }
 
-        h3
-        {
-        font-size:133%;
-        text-align:center;
-        font-family: 'Open Sans', sans-serif;
-        letter-spacing:2px;
-        text-decoration:none;
-        color:#252A27;  
-        }
+    h1
+  	{
+    font-size:200%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:auto;
+    text-align:center;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing:4px;
+    text-decoration:none;
+  	}
 
-        p
-        {
-        font-size:100%;
-        width:auto;
-        height:auto;
-        margin-bottom: 1px;
-        margin-top: auto;
-        margin-left: auto;
-        margin-right: auto;
-        text-align:center;
-        font-family: 'Open Sans', sans-serif;
-        letter-spacing:0px;
-        text-decoration:none;
-        color:#252A27;   
-        }
-      	
-      	img
-      	{
-      	width: auto;
-      	height: auto;
-      	margin-left: auto;
-      	margin-right: auto;
-        max-width: 100%;
-      	display: block;
-        padding:15px;
-		border-width: thick;
-		border-color: black;
-      	}
+    h2
+  	{
+    font-size:150%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:auto;
+    text-align:center;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing:2px;
+    text-decoration:none;
+  	}
 
-        a
-        {
-        color:#6E7370;  
-        }
+    h3
+    {
+    font-size:133%;
+    text-align:center;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing:2px;
+    text-decoration:none;
+    }
+
+    p
+    {
+    font-size:100%;
+    width:auto;
+    height:auto;
+    margin-bottom: 1px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing:0px;
+    text-decoration:none;
+    }
+
+  	img
+  	{
+  	width: auto;
+  	height: auto;
+		margin-top: 1%;
+  	margin-left: auto;
+  	margin-right: auto;
+    max-width: 75%;
+  	display: block;
+    padding:15px;
+    border-width: thick;
+  	border-color: black;
+  	}
+
+    a
+    {
+     color:#CCCCCC;
+    }
 
 		address
 		{
-		text-align: center;	
+		 text-align: left;
 		}
 
-		.cv-link
+		.consulting-section
 		{
-		text-align: center;
-		padding-bottom: 20px;
-		padding-top: 10px;
+		 text-align: center;
+ 		 display: inline-block;
+		 margin-top: 1%;
+		 margin-left: 10%;
+		 margin-right: 10%;
 		}
 
-		.cv-link > p > a
+		.consulting-section > ul
 		{
-		font-size: 18px;	
+			text-align: left;
+			display: inline-block;
+		}
+
+		.consulting-section > ul > li
+		{
+			text-align: left;
+			font-size: 16px;
+		}
+
+    .consulting-section > p
+    {
+			text-align: left;
+    }
+
+		.about-div
+		{
+     text-align: center;
+		 margin-left: 10%;
+		 margin-right: 10%auto;
 		}
 
 		.intro-section > h3
@@ -101,12 +124,38 @@
 		padding-top: 1px;
 		}
 
+		.col-xs-12 > a
+		{
+			color: #333333;
+		}
+
+		.col-xs-12 > h4 > a
+		{
+			color: #333333;
+			text-decoration: underline;
+		}
+
+		.col-xs-12 > h5
+		{
+			color: #333333;
+		}
+
+		.col-xs-12 > p
+		{
+			color: #333333;
+		}
+
 		.who-am-i
 		{
-		margin-left: 100px;
-		margin-right: 100px;
-		display: block;
-		text-align: center;
+		margin-left: 10%;
+		margin-right: 10%;
+		display: inline-block;
+		text-align: left;
+		}
+
+		.who-am-i > p > a
+		{
+			text-decoration: underline;
 		}
 
 		.about-section
@@ -115,20 +164,21 @@
 		height: auto;
 		display: block;
 		text-align: center;
-		margin-left: 100px;
-		margin-right: 100px
+		margin-left: 10%;
+		margin-right: 10%;
+		max-width: 500px;
 		}
 
-		.about-section > p
+		.about-section > p > a
 		{
-		max-width: 425px;
+		text-decoration: underline;
 		}
 
         .cv-section > .container > .row > .col-lg-12 > h1
         {
         width: auto;
         height: auto;
-        text-align: center;
+        text-align: left;
 		font-family: 'Open Sans', sans-serif;
         }
 
@@ -144,7 +194,7 @@
 
 		.job-duties
 		{
-		padding-bottom: 3px;	
+		padding-bottom: 3px;
 		}
 
 		.job-details
@@ -201,7 +251,7 @@
 		font-family: 'Open Sans', sans-serif;
 		font-size: 16px;
         }
-	
+
         .cv-section > .container > .row > .col-lg-12 > p
         {
         width: auto;
@@ -246,22 +296,51 @@
 
 		.text-left
 		{
-		font-size: 14px;	
+		font-size: 14px;
 		}
 
 		table
 		{
-		text-align: left;	
+		text-align: left;
 		}
-	
+
 		tr
 		{
-		text-align: left;		
+		text-align: left;
 		}
 
 		td
 		{
-		text-align: left;		
+		text-align: left;
+		}
+
+		.contact-section
+		{
+			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 50px;
+		}
+
+		.emails
+		{
+			text-align: left;
+			margin-left: auto;
+			margin-right: auto;
+		  display: inline-block
+		}
+
+		.github
+		{
+			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
+		  display: inline-block
+		}
+
+		.github > p > a
+		{
+			text-decoration: underline;
 		}
 
 		.presentation-section > .container > .oh-well > .row > .col-sm-12 > table > tr > td > p
@@ -273,12 +352,13 @@
 		time
 		{
 		text-align:left;
-		font-size: 14px;				
+		font-size: 14px;
+		color: #333333;
 		}
 
 		.blog_post
 		{
-			
+
 		}
 
 		ul
@@ -287,14 +367,14 @@
 		margin-bottom: 0px;
 		}
 
-        ul li
-        {
-        width: auto;
-        height: auto;
-        margin-left: 0px;
-        list-style-position: outside;
-        text-align: left;
+    ul li
+    {
+    width: auto;
+    height: auto;
+    margin-left: 0px;
+    list-style-position: outside;
+    text-align: left;
 		font-size: 14px;
 		font-size-adjust: auto;
 		font-family: 'Open Sans', sans-serif;
-        }
+    }

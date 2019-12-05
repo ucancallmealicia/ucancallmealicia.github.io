@@ -3,8 +3,8 @@
 
    body
 	 {
-	 background-color:#669999;
-   color: #333333;
+	 background-color:#F8E5E5;
+   color: #373A36;
    font-family: 'Open Sans', sans-serif;
    font-size:16px;
    text-align: left;
@@ -77,13 +77,14 @@
 
     a
     {
-     color:#333333;
+     color:#0F292F;
     }
 
 		address
 		{
 		 text-align: left;
 		}
+
 
 		.consulting-section
 		{
@@ -118,37 +119,49 @@
 		 margin-right: 10%auto;
 		}
 
+		.navbar-inverse
+		{
+			background-color: #373A36;
+		}
+
 		.intro-section > h3
 		{
 		padding-bottom: 1px;
 		padding-top: 1px;
+		text-align: center;
+		display: inline-block;
 		}
 
 		.col-xs-12 > a
 		{
-			color: #333333;
+			color: #373A36;
 		}
 
 		.col-xs-12 > h4 > a
 		{
-			color: #333333;
+			color: #373A36;
 			text-decoration: underline;
 		}
 
 		.col-xs-12 > h5
 		{
-			color: #333333;
+			color: #373A36;
 		}
 
 		.col-xs-12 > p
 		{
-			color: #333333;
+			color: #373A36;
+		}
+
+		.consulting-section > p > a
+		{
+			text-decoration: underline;
 		}
 
 		.who-am-i
 		{
-		margin-left: 10%;
-		margin-right: 10%;
+		margin-left: 15%;
+		margin-right: 15%;
 		display: inline-block;
 		text-align: left;
 		}
@@ -156,6 +169,22 @@
 		.who-am-i > p > a
 		{
 			text-decoration: underline;
+		}
+
+		.navbar-inverse .navbar-brand
+		{
+			color: #E6E2DD;
+		}
+
+		.navbar-inverse .navbar-nav > li > a
+		{
+			color: #E6E2DD;
+		}
+
+
+		.navbar-header
+		{
+			color: #E6E2DD;
 		}
 
 		.about-section
@@ -274,13 +303,18 @@
 		background-color: #82BB99;
 		}
 
+		.row
+		{
+		}
+
+
 		.oh-well
 		{
 		display: flex;
 		flex-flow: row wrap;
 		justify-content: left;
 		padding: 10px 10px 10px 10px;
-		background-color:#D5DBDB;
+		background-color:#C39EA0;
 		}
 
 		.oh-well > .row > .col-xs-12 > p
@@ -341,6 +375,7 @@
 		.github > p > a
 		{
 			text-decoration: underline;
+			color: #373A36;
 		}
 
 		.presentation-section > .container > .oh-well > .row > .col-sm-12 > table > tr > td > p
@@ -353,7 +388,7 @@
 		{
 		text-align:left;
 		font-size: 14px;
-		color: #333333;
+		color: #373A36;
 		}
 
 		.blog_post
